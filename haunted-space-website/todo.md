@@ -11,6 +11,7 @@ Replicare il sito di Haunted Space in una settimana a partire da lunedi 29/04.
 
 - [ ] Utilizzo delle classi {styles.components} con tailwind (https://www.youtube.com/watch?v=iMst9GE8wIM&t=2564s)
 - [ ] Capire i breakpoint di tailwind 
+- [ ] Installare il Font ed impostarlo bene.
 
 ##### - INIZIO PROGRAMMAZIONE - giorno 1
 - [ ] Sviluppare header + menu hamburger responsive 
