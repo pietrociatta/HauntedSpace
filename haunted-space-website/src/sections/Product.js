@@ -25,7 +25,7 @@ function Product() {
               AND EARN
             </div>
 
-            <div className="xl:px-56 lg:px-44 sm:px-12 px-8 pt-4">
+            <div className="xl:px-56 lg:px-44 sm:px-12 px-8 pt-4 pb-10">
               <p className="text-center  font-BlenderBook text-white sm:text-lg text-base ">
                 Haunted Space is a profound adventure that allows you to
                 explore, play, and earn your way through star-choked skies in

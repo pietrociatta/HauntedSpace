@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Hero from "./sections/Hero";
 import Product from "./sections/Product";
+import Slider from "./sections/Slider";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       </div>
       <div className="">
         <Product />
+      </div>
+      <div>
+        <Slider />
       </div>
     </div>
   );

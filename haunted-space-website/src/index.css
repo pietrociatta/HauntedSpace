@@ -51,6 +51,18 @@
     clip-path: polygon(0 0, 99% 0, 100% 100%, 1% 100%, 0 0);
   }
 
+  .sliderCharSide {
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%, 0 100%);
+  }
+
+  .sliderCharCenter {
+    clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%, 0 100%);
+  }
+
+  .sliderCharFinal {
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%, 0 100%);
+  }
+
   .nav-menu {
     padding-top: 100px;
     width: 100%;
