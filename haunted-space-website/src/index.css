@@ -27,33 +27,57 @@
     clip-path: polygon(0 0, 100% 0, 100% 100%, 24% 100%, 0 72%);
   }
 
+  .textlight {
+    text-shadow: 0 0 14px #ffffff60;
+  }
+
   .shapeHamburger {
     clip-path: polygon(74% 0, 100% 29%, 100% 100%, 0 100%, 0 0);
+  }
+
+  .shapeButton {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 7% 99%, 0 78%);
+  }
+
+  .shapeButtonSecondary {
+    clip-path: polygon(92% 0, 100% 21%, 100% 100%, 0 100%, 0 0);
+  }
+
+  .shape1Divider {
+    clip-path: polygon(0 0, 95% 0, 100% 100%, 5% 100%, 0 0);
+  }
+
+  .shape2Divider {
+    clip-path: polygon(0 0, 99% 0, 100% 100%, 1% 100%, 0 0);
   }
 
   .nav-menu {
     padding-top: 100px;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     position: fixed;
     top: 0;
-    z-index: -1;
+
     right: -100%;
 
     transition: 650ms;
   }
 
+  .positioning {
+    transform: translate(-50%, -50%);
+  }
+
   .active {
     padding-top: 100px;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     position: fixed;
-    top: 0;
-    z-index: -1;
+    top: 0px;
+
     right: 0;
     transition: 650ms;
   }

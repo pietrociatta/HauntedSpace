@@ -9,9 +9,9 @@ function Header() {
 
   const showSidebar = () => setSidebar(!sidebar);
   return (
-    <div className="fixed w-full">
-      <div className="bg-[#272932] w-full    ">
-        <header className="flex justify-between items-center mx-[15px] pt-[15px]  text-white font-BlenderMedium  ">
+    <div className="fixed w-full z-20 ">
+      <div className="bg-[#272932] w-full z-40 fixed   ">
+        <header className="flex justify-between items-center mx-[15px] pt-[15px]   text-white font-BlenderMedium  ">
           <div className="max-w-[250px] ">
             <img src={Logo} className="" alt="" />
           </div>
@@ -38,17 +38,16 @@ function Header() {
             </div>
           </div>
         </header>
+        <div className="bg-divider z-40 mx-0 fixed w-full bg-cover bg-center  bg-repeat-x -m-1">
+          <h1 className="opacity-0 p-2 ">ciao</h1>
+        </div>
       </div>
 
-      <div className="bg-divider bg-cover bg-center  bg-repeat-x -m-1">
-        <h1 className="opacity-0 p-3 ">ciao</h1>
-      </div>
-
-      <div className="">
+      <div className="z-20 fixed">
         <nav
           className={
             sidebar
-              ? "nav-menu active flex-col overflow-x-hidden  bg-[#1e1f27]"
+              ? "nav-menu active flex-col overflow-x-hidden   bg-[#1e1f27]"
               : " nav-menu flex-col overflow-x-hidden"
           }
         >
@@ -114,20 +113,20 @@ function Header() {
               </div>
             </li>
           </ul>
-          <div className=" mt-auto justify-center">
-            <button className="p-5 rounded-xl mx-4 bg-white text-black ">
+          <div className=" mt-auto justify-center mx-4">
+            <button className="p-4 w-full mx-auto rounded-xl mb-6  bg-white text-black ">
               CONNECT WALLET
             </button>
-            <div className=" justify-center text-white bg-[#272932] p-8 text-2xl gap-4  flex">
-              <div>
-                <AiOutlineTwitter />
-              </div>
-              <div>
-                <AiOutlineTwitter />
-              </div>
-              <div>
-                <AiOutlineTwitter />
-              </div>
+          </div>
+          <div className=" justify-center text-white bg-[#272932] p-8 text-2xl gap-4  flex">
+            <div>
+              <AiOutlineTwitter />
+            </div>
+            <div>
+              <AiOutlineTwitter />
+            </div>
+            <div>
+              <AiOutlineTwitter />
             </div>
           </div>
         </nav>

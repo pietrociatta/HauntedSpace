@@ -8,6 +8,7 @@ module.exports = {
         divider: "url('./images/Divider/Bottom-divider.svg')",
         video: "url('./images/Hero-video.mp4')",
         hero: "url('./images/Hero-bg.png')",
+        pattern: "url('./images/Pattern.svg')",
       },
       fontFamily: {
         BlenderBold: ["Blender-Bold", "sans-serif"],
