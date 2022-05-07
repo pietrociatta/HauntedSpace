@@ -9,8 +9,8 @@ import { EffectCreative } from "swiper";
 
 function Slider() {
   return (
-    <div>
-      <div className="bg-divider z-40 mx-0  w-full bg-cover absolute bg-center  bg-repeat-x -m-1">
+    <div className="inline-block">
+      <div className="bg-divider z-10 mx-0  w-full bg-cover absolute bg-center  bg-repeat-x -m-1">
         <h1 className="opacity-0 p-2 ">ciao</h1>
       </div>
 
@@ -231,7 +231,7 @@ function Slider() {
           </Swiper>
         </div>
       </div>
-      <div className="bg-divider z-40 mx-0 rotate-180  w-full bg-cover absolute bg-center  bg-repeat-x -m-8">
+      <div className="bg-divider z-10 mx-0 rotate-180  w-full bg-cover absolute bg-center  bg-repeat-x -m-8">
         <h1 className="opacity-0 p-2 ">ciao</h1>
       </div>
     </div>

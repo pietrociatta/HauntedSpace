@@ -93,4 +93,20 @@
     right: 0;
     transition: 650ms;
   }
+
+  .animation-delay-75 {
+    animation-delay: 75ms;
+  }
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  .animation-delay-300 {
+    animation-delay: 300s;
+  }
+
+  .swiper-button-next {
+    color: red;
+    background-color: red;
+    padding: 10px;
+  }
 }

@@ -1,0 +1,74 @@
+.swiper-button-prev {
+  color: white;
+  background-color: #fa6a4f;
+  width: 60px;
+  height: 60px;
+
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 24% 100%, 0 72%);
+}
+
+.mySwiper1 {
+  height: 90vh;
+}
+
+@media (max-width: 428px) {
+  .mySwiper1 {
+    height: 70vh;
+  }
+}
+
+.swiper-button-prev::after {
+  color: white;
+  background-color: #fa6a4f;
+  font-size: 22px;
+
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 24% 100%, 0 72%);
+}
+
+.swiper-button-next {
+  color: white;
+  background-color: #fa6a4f;
+  width: 60px;
+  height: 60px;
+
+  clip-path: polygon(74% 0, 100% 29%, 100% 100%, 0 100%, 0 0);
+}
+
+.swiper-button-next::after {
+  color: white;
+  background-color: #fa6a4f;
+  font-size: 22px;
+
+  clip-path: polygon(74% 0, 100% 29%, 100% 100%, 0 100%, 0 0);
+}
+
+.swiper-pagination-bullet {
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  width: 15px;
+  height: 15px;
+  opacity: 100%;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fa6a4f;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  width: 15px;
+  height: 15px;
+}
+
+.swiper-horizontal {
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+}

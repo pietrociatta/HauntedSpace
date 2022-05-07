@@ -3,7 +3,7 @@ import CharDesktop from "../images/Characters-Desktop.png";
 import CharMobile from "../images/Characters-Mobile.png";
 function Product() {
   return (
-    <div className="z-30 ">
+    <div className="z-30 inline-block ">
       <div>
         <div className=" w-full  hidden md:flex  2xl:-mt-[620px]  xl:-mt-[480px] lg:-mt-[400px] md:-mt-[310px]">
           <img src={CharDesktop} className=" " alt="" />
