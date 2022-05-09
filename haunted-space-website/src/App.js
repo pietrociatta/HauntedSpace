@@ -9,6 +9,7 @@ import MobileSlider from "./sections/MobileSlider";
 import PlayToEarn from "./sections/PlayToEarn";
 import Product from "./sections/Product";
 import RoadMap from "./sections/RoadMap";
+import RoadMapMobile from "./sections/RoadMapMobile";
 import ShipSlider from "./sections/ShipSlider";
 import SinglePlayer from "./sections/SinglePlayer";
 import Slider from "./sections/Slider";
@@ -49,8 +50,12 @@ function App() {
       <div className=" ">
         <Gallery />
       </div>
-      <div className=" ">
+      <div className="hidden md:flex ">
         <RoadMap />
+      </div>
+
+      <div className=" ">
+        <RoadMapMobile />
       </div>
     </div>
   );

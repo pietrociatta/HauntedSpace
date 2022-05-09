@@ -2,10 +2,10 @@ import React from "react";
 import Characters from "../images/PlayToEarn.png";
 function PlayToEarn() {
   return (
-    <div className="z-30 inline-block ">
+    <div className="z-30 ">
       <div>
         <div className="bg-[#272932] bg-pattern lg:flex md:block items-center py-16   bg-repeat">
-          <div className="mx-auto pt-4 lg:w-3/5 w-full lg:px-9 px-10 ">
+          <div className="mx-auto pt-4 lg:w-1/2 w-full lg:px-0 px-10 ">
             <div className="text-center textlight font-BlenderBold text-white sm:text-4xl text-3xl">
               PLAY TO EARN
             </div>
@@ -27,8 +27,12 @@ function PlayToEarn() {
               </p>
             </div>
           </div>
-          <div className="lg:w-2/5 w-4/5 mx-auto">
-            <img src={Characters} alt="" />
+          <div className="lg:w-[50%] w-1/2 mx-auto">
+            <img
+              src={Characters}
+              className="lg:w-[90%] xl:w-[70%] w-[100%] mx-auto"
+              alt=""
+            />
           </div>
         </div>
       </div>

@@ -11,10 +11,33 @@
   height: 90vh;
 }
 
+.mySwiperMobile {
+  height: 30vh;
+  background-color: transparent;
+  font-size: 30px;
+  text-align: center;
+}
+
 @media (max-width: 428px) {
   .mySwiper1 {
     height: 70vh;
   }
+}
+
+.picker-active {
+  font-size: 40px;
+  padding-top: 10px;
+  text-align: center;
+  margin-bottom: 0px;
+  text-shadow: 0 0 14px #ffffff60;
+  color: white;
+  font-family: ;
+}
+.picker-next {
+  background-color: transparent;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .swiper-button-prev::after {

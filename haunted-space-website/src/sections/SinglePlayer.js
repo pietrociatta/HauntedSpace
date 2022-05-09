@@ -8,8 +8,12 @@ function SinglePlayer() {
           <h1 className="opacity-0 p-2 ">ciao</h1>
         </div>
         <div className="bg-[#272932] bg-pattern lg:flex-row flex-col-reverse flex 	 items-center py-24   bg-repeat">
-          <div className="lg:w-2/5 w-4/5 mx-auto">
-            <img src={Characters} alt="" />
+          <div className=" lg:w-[50%] w-1/2 mx-auto">
+            <img
+              src={Characters}
+              className="lg:w-[90%] xl:w-[70%] w-[100%] mx-auto"
+              alt=""
+            />
           </div>
           <div className="mx-auto pt-4 lg:w-3/5 w-full lg:px-9 px-10 ">
             <div className="text-center textlight font-BlenderBold text-white sm:text-4xl text-3xl">
@@ -33,7 +37,7 @@ function SinglePlayer() {
                 darkness of Neterun's space.
               </p>
             </div>
-            <div className="flex justify-center pt-6 pb-10 gap-4">
+            <div className="flex justify-center pt-6 pb-0 gap-4">
               <button className="text-white bg-[#FA6A4F] shapeButton font-BlenderMedium shape px-4 py-2 ">
                 ESPLORA
               </button>

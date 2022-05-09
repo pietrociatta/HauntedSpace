@@ -13,7 +13,7 @@ function RoadMap() {
   const [titolo, setTitolo] = useState(value[0].h1);
   const [paragrafo, setParagrafo] = useState(value[0].p);
   return (
-    <div className="bg-[#18191f] bg-pattern bg-repeat pt-20  ">
+    <div className="bg-[#18191f] bg-pattern bg-repeat pt-20 w-full  ">
       <div className="text-center textlight font-BlenderBold text-white sm:text-4xl text-3xl">
         ROADMAP
       </div>

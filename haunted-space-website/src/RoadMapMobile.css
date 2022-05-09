@@ -1,0 +1,38 @@
+.mySwiperMobile {
+  height: 30vh;
+  background-color: transparent;
+
+  font-size: 20px;
+  color: white;
+  opacity: 80%;
+  text-align: center;
+  padding: 2px;
+}
+
+.picker-active {
+  font-size: 32px;
+  padding-top: 0px;
+  text-align: center;
+  margin-bottom: 0px;
+  text-shadow: 0 0 14px #ffffff60;
+  color: white;
+
+  align-items: center;
+  display: flex;
+
+  justify-content: center;
+  width: 100%;
+}
+.picker-next {
+  background-color: transparent;
+  font-size: 20px;
+  color: white;
+  opacity: 80%;
+  text-align: center;
+  padding-top: 0px;
+  align-items: center;
+  display: flex;
+
+  justify-content: center;
+  width: 100%;
+}
