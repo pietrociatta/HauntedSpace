@@ -13,6 +13,7 @@ module.exports = {
         active: "url('./images/Components/Active.svg')",
         bullet: "url('./images/Components/Bullet.svg')",
         bulletActive: "url('./images/Components/BulletActive.svg')",
+        IgfBg: "url('./images/IgfTeam.jpg')",
       },
       fontFamily: {
         BlenderBold: ["Blender-Bold", "sans-serif"],

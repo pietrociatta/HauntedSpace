@@ -158,6 +158,9 @@ function RoadMap() {
           {paragrafo}
         </p>
       </div>
+      <div className="bg-dividerColor z-10 mx-0   w-full bg-cover absolute bg-center  bg-repeat-x ">
+        <h1 className="opacity-0 p-2 ">ciao</h1>
+      </div>
     </div>
   );
 }

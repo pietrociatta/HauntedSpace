@@ -21,15 +21,22 @@ function RoadMapMobile() {
   const [titolo, settitolo] = useState(value[0].h1);
   const [paragrafo, setparagrafo] = useState(value[0].p);
   return (
-    <div className="bg-[#18191f] bg-pattern bg-repeat">
-      <div className="items-center font-BlenderBold text-2xl text-center rotate-[-90deg] p-2">
+    <div className="bg-[#18191f] bg-pattern bg-repeat py-14">
+      <div className="text-center textlight font-BlenderBold text-white sm:text-4xl text-3xl">
+        ROADMAP
+      </div>
+      <div className="flex justify-center gap-2 pt-2 pb-6">
+        <div className="bg-[#932121] shape1Divider h-1 w-6"></div>
+        <div className="bg-[#FA6A4F] shape2Divider h-1 w-20"></div>
+      </div>
+      <div className="items-center font-BlenderBold text-2xl w-7 mx-auto text-center rotate-[-90deg] p-2">
         <div className="animate-bounceAlpha text-white ">></div>
       </div>
       <div className="font-BlenderBold bg-active max-w-[250px] min-w-[250px] bg-contain bg-center bg-no-repeat mx-auto ">
         <Swiper
           direction={"vertical"}
           slidesPerView={"3"}
-          spaceBetween={30}
+          spaceBetween={50}
           onSlideChange={(swiperCore) => {
             const { activeIndex } = swiperCore;
 
@@ -65,7 +72,7 @@ function RoadMapMobile() {
           </SwiperSlide>
         </Swiper>
       </div>
-      <div className="items-center font-BlenderBold text-2xl text-center rotate-[90deg] p-2">
+      <div className="items-center font-BlenderBold text-2xl w-7 mx-auto text-center rotate-[90deg] p-2">
         <div className="animate-bounceAlpha text-white ">></div>
       </div>
       <div className="text-center text-white py-8">
@@ -75,6 +82,9 @@ function RoadMapMobile() {
         <p className="font-BlenderBook text-white sm:text-lg text-base">
           {paragrafo}
         </p>
+      </div>
+      <div className="bg-dividerColor z-10 mx-0 w-full bg-cover absolute bg-center  bg-repeat-x mt-10 ">
+        <h1 className="opacity-0 p-2 ">ciao</h1>
       </div>
     </div>
   );

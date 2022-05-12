@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className="">
       <div className="hidden md:flex  2xl:h-[1300px] xl:h-[1000px] lg:h-[900px] md:h-[700px] ">
-        <div className="absolute w-full xl:top-[55%] lg:top-[45%] top-[35%] left-1/2 positioning  ">
+        <div className="absolute w-full 2xl:top-[50%] xl:top-[45%] lg:top-[50%] md:top-[40%] top-[35%] left-1/2 right-1/2 positioning  ">
           <img src={Logo} className="w-3/5 max-w-xl mx-auto" alt="" />
           <h2 className="font-BlenderBook text-xl text-center mt-2 text-white opacity-70">
             The best game NFT projuect.

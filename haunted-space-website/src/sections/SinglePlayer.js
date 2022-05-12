@@ -7,23 +7,23 @@ function SinglePlayer() {
         <div className="bg-divider z-10 mx-0  w-full bg-cover absolute bg-center  bg-repeat-x -m-1">
           <h1 className="opacity-0 p-2 ">ciao</h1>
         </div>
-        <div className="bg-[#272932] bg-pattern lg:flex-row flex-col-reverse flex 	 items-center py-24   bg-repeat">
-          <div className=" lg:w-[50%] w-1/2 mx-auto">
+        <div className="bg-[#272932] bg-pattern lg:flex-row flex-col-reverse flex 	 items-center pt-24 pb-12   bg-repeat">
+          <div className=" lg:w-[50%]  mx-auto">
             <img
               src={Characters}
-              className="lg:w-[90%] xl:w-[70%] w-[100%] mx-auto"
+              className="lg:w-[90%] xl:w-[90%] w-[80%] pt-16 mx-auto"
               alt=""
             />
           </div>
           <div className="mx-auto pt-4 lg:w-3/5 w-full lg:px-9 px-10 ">
-            <div className="text-center textlight font-BlenderBold text-white sm:text-4xl text-3xl">
+            <div className="text-center textlight font-BlenderBold text-white sm:text-4xl md:text-[30px]  text-3xl">
               SINGLE PLAYER
             </div>
             <div className="flex justify-center gap-2 pt-2 pb-6">
               <div className="bg-[#932121] shape1Divider h-1 w-6"></div>
               <div className="bg-[#FA6A4F] shape2Divider h-1 w-20"></div>
             </div>
-            <div className="text-center textlight font-BlenderBold text-white sm:text-6xl  text-[50px] leading-none ">
+            <div className="text-center textlight font-BlenderBold text-white sm:text-6xl md:text-[60px]  text-[50px] leading-none ">
               DREAD AMONGST THE STARS
             </div>
 

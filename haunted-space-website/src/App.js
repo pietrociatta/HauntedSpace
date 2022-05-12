@@ -4,6 +4,7 @@ import CallToAction from "./sections/CallToAction";
 import Gallery from "./sections/Gallery";
 
 import Hero from "./sections/Hero";
+import Igf from "./sections/Igf";
 import MobileShipSlider from "./sections/MobileShipSlider";
 import MobileSlider from "./sections/MobileSlider";
 import PlayToEarn from "./sections/PlayToEarn";
@@ -13,6 +14,7 @@ import RoadMapMobile from "./sections/RoadMapMobile";
 import ShipSlider from "./sections/ShipSlider";
 import SinglePlayer from "./sections/SinglePlayer";
 import Slider from "./sections/Slider";
+import Team from "./sections/Team";
 
 function App() {
   return (
@@ -54,8 +56,17 @@ function App() {
         <RoadMap />
       </div>
 
-      <div className=" ">
+      <div className=" md:hidden ">
         <RoadMapMobile />
+      </div>
+      <div className="relative">
+        <CallToAction />
+      </div>
+      <div>
+        <Igf />
+      </div>
+      <div>
+        <Team />
       </div>
     </div>
   );
