@@ -27,7 +27,7 @@ function Team() {
           <div className="bg-[#FA6A4F] shape2Divider h-1 w-20"></div>
         </div>
         <div className="grid md:grid-cols-3 md:gap-x-14 sm:gap-x-10 mx-6  grid-cols-1 gap-y-10 sm:grid-cols-2">
-          <div className="w-[80%] relative md:w-[100%] hover:scale-105 hover:transition hover:ease-in-out hover:duration-200    mx-auto">
+          <div className="w-[80%] relative md:w-[100%]    mx-auto">
             <div className="hidden sm:flex absolute top-0 cursor-pointer text-white  bg-[#FA6A4F] p-[7px]">
               <a href="">
                 <AiOutlineTwitter size={25} />
@@ -60,19 +60,19 @@ function Team() {
               </div>
             </div>
           </div>
-          <div className="w-[80%] md:w-[100%] hover:scale-105 hover:transition hover:ease-in-out hover:duration-200  mx-auto">
+          <div className="w-[80%] md:w-[100%]   mx-auto">
             <img src={Giorgio} className="mx-auto" alt="" />
           </div>
-          <div className="w-[80%] md:w-[100%] hover:scale-105 hover:transition hover:ease-in-out hover:duration-200  mx-auto">
+          <div className="w-[80%] md:w-[100%]   mx-auto">
             <img src={Ivan} className="mx-auto" alt="" />
           </div>
-          <div className="w-[80%] md:w-[100%] hover:scale-105 hover:transition hover:ease-in-out hover:duration-200  mx-auto">
+          <div className="w-[80%] md:w-[100%]   mx-auto">
             <img src={Federico} className="mx-auto" alt="" />
           </div>
-          <div className="w-[80%] md:w-[100%] hover:scale-105 hover:transition hover:ease-in-out hover:duration-200  mx-auto">
+          <div className="w-[80%] md:w-[100%]  mx-auto">
             <img src={Igf} className="mx-auto" alt="" />
           </div>
-          <div className="w-[80%] md:w-[100%] hover:scale-105 hover:transition hover:ease-in-out hover:duration-200  mx-auto">
+          <div className="w-[80%] md:w-[100%]  mx-auto">
             <img src={Aries} className="mx-auto" alt="" />
           </div>
         </div>

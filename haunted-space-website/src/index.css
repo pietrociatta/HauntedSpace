@@ -3,23 +3,23 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Blender-Bold";
-  src: url("../public/fonts/BlenderPro-Bold.ttf");
+  font-family: 'Blender-Bold';
+  src: url('../public/fonts/BlenderPro-Bold.ttf');
 }
 
 @font-face {
-  font-family: "Blender-Book";
-  src: url("../public/fonts/BlenderPro-Book.ttf");
+  font-family: 'Blender-Book';
+  src: url('../public/fonts/BlenderPro-Book.ttf');
 }
 
 @font-face {
-  font-family: "Blender-Medium";
-  src: url("../public/fonts/BlenderPro-Medium.ttf");
+  font-family: 'Blender-Medium';
+  src: url('../public/fonts/BlenderPro-Medium.ttf');
 }
 
 @font-face {
-  font-family: "Blender-Heavy";
-  src: url("../public/fonts/BlenderPro-Heavy.ttf");
+  font-family: 'Blender-Heavy';
+  src: url('../public/fonts/BlenderPro-Heavy.ttf');
 }
 
 @layer utilities {
@@ -79,6 +79,20 @@
 
   .positioning {
     transform: translate(-50%, -50%);
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    scroll-behavior: smooth;
+
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .no-scrollbar {
+    scroll-behavior: smooth;
+
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
   }
 
   .active {

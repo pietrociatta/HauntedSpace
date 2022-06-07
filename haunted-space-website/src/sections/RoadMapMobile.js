@@ -57,7 +57,7 @@ function RoadMapMobile() {
         <Swiper
           direction={'vertical'}
           slidesPerView={'3'}
-          spaceBetween={70}
+          spaceBetween={60}
           onSlideChange={(swiperCore) => {
             const { activeIndex } = swiperCore;
 

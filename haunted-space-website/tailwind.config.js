@@ -14,7 +14,7 @@ module.exports = {
         bullet: "url('./images/Components/Bullet.svg')",
         bulletActive: "url('./images/Components/BulletActive.svg')",
         IgfBg: "url('./images/IgfTeam.jpg')",
-        sfondoVideo: "url('./images/sfondoVideo.png')",
+        sfondoVideo: "url('./images/sfondoVideo.jpg')",
       },
       fontFamily: {
         BlenderBold: ['Blender-Bold', 'sans-serif'],
