@@ -1,6 +1,6 @@
-import React from "react";
-import CharDesktop from "../images/Characters-Desktop.png";
-import CharMobile from "../images/Characters-Mobile.png";
+import React from 'react';
+import CharDesktop from '../images/Characters-Desktop.png';
+import CharMobile from '../images/Characters-Mobile.png';
 function Product() {
   return (
     <div className="z-30 ">
@@ -21,11 +21,11 @@ function Product() {
               </p>
             </div>
             <div>
-              <div className="flex items-center gap-3 sm:w-1/3 md:w-1/4 lg:w-1/4 xl:w-1/5 w-4/5 h-[80px] mx-auto justify-center text-white bg-[#FA6A4F] shapeButton font-BlenderMedium shape px-4 text-2xl py-0 ">
+              <div className="flex items-center gap-3 sm:w-1/3 md:w-1/4 lg:w-1/4 xl:w-1/5 w-4/5 h-[80px] mx-auto justify-center text-white bg-[#FA6A4F] shapeButton font-BlenderMedium shape px-4 text-3xl py-0 ">
                 <div className="flex items-center">
                   <div className="animate-bounceAlpha ">></div>
                 </div>
-                <div>JOIN NOW</div>
+                <div className="md:text-xl">JOIN NOW</div>
                 <div className="flex items-center rotate-180">
                   <div className="animate-bounceAlpha ">></div>
                 </div>

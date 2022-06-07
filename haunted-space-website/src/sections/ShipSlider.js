@@ -1,9 +1,21 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
-import Assassin1 from "../images/Slider/Alpha1.jpg";
-import Assassin2 from "../images/Slider/Alpha2.jpg";
-import Assassin3 from "../images/Slider/Alpha3.png";
+import Woman1 from "../images/Slider/Alpha1.jpg";
+import Woman2 from "../images/Slider/Alpha2.jpg";
+import Woman3 from "../images/Slider/Alpha3.png";
+import Ass1 from "../images/Slider/Ass1.jpg";
+import Ass2 from "../images/Slider/Ass2.jpg";
+import Ass3 from "../images/Slider/Ass3.jpg";
+import Bill1 from "../images/Slider/Bill1.jpg";
+import Bill2 from "../images/Slider/Bill2.jpg";
+import Bill3 from "../images/Slider/Bill3.jpg";
+import Cyb1 from "../images/Slider/Cyb1.jpg";
+import Cyb2 from "../images/Slider/Cyb2.jpg";
+import Cyb3 from "../images/Slider/Cyb3.jpg";
+import Pir1 from "../images/Slider/Pir1.jpg";
+import Pir2 from "../images/Slider/Pir2.jpg";
+import Pir3 from "../images/Slider/Pir3.jpg";
 import "swiper/css";
 import { EffectCreative } from "swiper";
 
@@ -29,21 +41,21 @@ function ShipSlider() {
           >
             <SwiperSlide>
               <img
-                src={Assassin1}
+                src={Woman1}
                 className="mx-auto h-[80vh] object-cover w-full "
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={Assassin2}
+                src={Woman2}
                 className="mx-auto h-[80vh] object-cover"
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={Assassin3}
+                src={Woman3}
                 className="mx-auto h-[80vh] object-cover"
                 alt=""
               />
@@ -74,21 +86,21 @@ function ShipSlider() {
           >
             <SwiperSlide>
               <img
-                src={Assassin1}
+                src={Ass1}
                 className="mx-auto h-[80vh] object-cover "
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={Assassin2}
+                src={Ass2}
                 className="mx-auto h-[80vh] object-cover"
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={Assassin3}
+                src={Ass3}
                 className="mx-auto h-[80vh] object-cover"
                 alt=""
               />
@@ -119,21 +131,21 @@ function ShipSlider() {
           >
             <SwiperSlide>
               <img
-                src={Assassin1}
+                src={Bill1}
                 className="mx-auto h-[80vh] object-cover "
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={Assassin2}
+                src={Bill2}
                 className="mx-auto h-[80vh] object-cover"
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={Assassin3}
+                src={Bill3}
                 className="mx-auto h-[80vh] object-cover"
                 alt=""
               />
@@ -164,21 +176,21 @@ function ShipSlider() {
           >
             <SwiperSlide>
               <img
-                src={Assassin1}
+                src={Cyb1}
                 className="mx-auto h-[80vh] object-cover "
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={Assassin2}
+                src={Cyb2}
                 className="mx-auto h-[80vh] object-cover"
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={Assassin3}
+                src={Cyb3}
                 className="mx-auto h-[80vh] object-cover"
                 alt=""
               />
@@ -209,21 +221,21 @@ function ShipSlider() {
           >
             <SwiperSlide>
               <img
-                src={Assassin1}
+                src={Pir1}
                 className="mx-auto h-[80vh] object-cover "
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={Assassin2}
+                src={Pir2}
                 className="mx-auto h-[80vh] object-cover"
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={Assassin3}
+                src={Pir3}
                 className="mx-auto h-[80vh] object-cover"
                 alt=""
               />

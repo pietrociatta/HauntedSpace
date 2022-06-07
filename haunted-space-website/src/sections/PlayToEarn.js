@@ -4,7 +4,7 @@ function PlayToEarn() {
   return (
     <div className="z-30 ">
       <div>
-        <div className="bg-[#272932] bg-pattern lg:flex md:block items-center py-16   bg-repeat">
+        <div className="bg-[#272932] bg-pattern lg:flex md:block items-center pt-24 pb-14   bg-repeat">
           <div className="mx-auto pt-4 lg:w-1/2 w-full lg:px-8 px-10 ">
             <div className="text-center textlight font-BlenderBold text-white sm:text-4xl md:text-[30px] text-3xl">
               PLAY TO EARN

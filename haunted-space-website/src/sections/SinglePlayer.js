@@ -4,10 +4,7 @@ function SinglePlayer() {
   return (
     <div className="z-30  ">
       <div>
-        <div className="bg-divider z-10 mx-0  w-full bg-cover absolute bg-center  bg-repeat-x -m-1">
-          <h1 className="opacity-0 p-2 ">ciao</h1>
-        </div>
-        <div className="bg-[#272932] bg-pattern lg:flex-row flex-col-reverse flex 	 items-center pt-24 pb-12   bg-repeat">
+        <div className="bg-[#272932] bg-pattern lg:flex-row flex-col-reverse flex 	 items-center pt-16 pb-12   bg-repeat">
           <div className=" lg:w-[50%]  mx-auto">
             <img
               src={Characters}
@@ -41,12 +38,12 @@ function SinglePlayer() {
               <button className="text-white bg-[#FA6A4F] shapeButton font-BlenderMedium shape px-4 py-2 ">
                 ESPLORA
               </button>
-              <button className="text-white border-[#FA6A4F] border-2  font-BlenderMedium  px-4 py-2 ">
-                TRAILER
-              </button>
             </div>
           </div>
         </div>
+      </div>
+      <div className="bg-divider z-10 mx-0  w-full bg-cover absolute bg-center  bg-repeat-x -m-1">
+        <h1 className="opacity-0 p-2 ">ciao</h1>
       </div>
     </div>
   );

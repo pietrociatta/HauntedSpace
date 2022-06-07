@@ -1,20 +1,20 @@
-import "./App.css";
-import Header from "./components/Header";
-import CallToAction from "./sections/CallToAction";
-import Gallery from "./sections/Gallery";
+import './App.css';
+import Header from './components/Header';
+import CallToAction from './sections/CallToAction';
+import Gallery from './sections/Gallery';
 
-import Hero from "./sections/Hero";
-import Igf from "./sections/Igf";
-import MobileShipSlider from "./sections/MobileShipSlider";
-import MobileSlider from "./sections/MobileSlider";
-import PlayToEarn from "./sections/PlayToEarn";
-import Product from "./sections/Product";
-import RoadMap from "./sections/RoadMap";
-import RoadMapMobile from "./sections/RoadMapMobile";
-import ShipSlider from "./sections/ShipSlider";
-import SinglePlayer from "./sections/SinglePlayer";
-import Slider from "./sections/Slider";
-import Team from "./sections/Team";
+import Hero from './sections/Hero';
+import Igf from './sections/Igf';
+import MobileShipSlider from './sections/MobileShipSlider';
+import MobileSlider from './sections/MobileSlider';
+import PlayToEarn from './sections/PlayToEarn';
+import Product from './sections/Product';
+import RoadMap from './sections/RoadMap';
+import RoadMapMobile from './sections/RoadMapMobile';
+import ShipSlider from './sections/ShipSlider';
+import SinglePlayer from './sections/SinglePlayer';
+import Slider from './sections/Slider';
+import Team from './sections/Team';
 
 function App() {
   return (
@@ -22,10 +22,10 @@ function App() {
       <div className="">
         <Header />
       </div>
-      <div className="pt-14">
+      <div className="pt-14" id="hero">
         <Hero />
       </div>
-      <div className="relative">
+      <div className="relative" id="thegame">
         <Product />
       </div>
       <div className="hidden md:flex h-[80vh] ">
@@ -43,20 +43,18 @@ function App() {
       <div className="md:hidden flex h-[50vh]">
         <MobileShipSlider />
       </div>
-      <div className="relative">
-        <PlayToEarn />
-      </div>
-      <div className="relative">
+      <div className="relative" id="singleplayer">
         <SinglePlayer />
       </div>
-      <div className=" ">
-        <Gallery />
+      <div className="relative" id="playtoearn">
+        <PlayToEarn />
       </div>
-      <div className="hidden md:flex ">
+
+      <div className="hidden md:flex " id="roadmap">
         <RoadMap />
       </div>
 
-      <div className=" md:hidden ">
+      <div className=" md:hidden " id="roadmapm">
         <RoadMapMobile />
       </div>
       <div className="relative">
@@ -65,7 +63,7 @@ function App() {
       <div>
         <Igf />
       </div>
-      <div>
+      <div id="team">
         <Team />
       </div>
     </div>

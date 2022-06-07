@@ -4,6 +4,19 @@ import { Autoplay } from "swiper";
 import Assassin1 from "../images/Slider/Assassin1.jpg";
 import Assassin2 from "../images/Slider/Assassin2.jpg";
 import Assassin3 from "../images/Slider/Assassin3.jpg";
+import Billionaire1 from "../images/Slider/Billionaire1.jpg";
+import Billionaire2 from "../images/Slider/Billionaire2.jpg";
+import Billionaire3 from "../images/Slider/Billionaire3.jpg";
+import Cyborg1 from "../images/Slider/Cyborg1.jpg";
+import Cyborg2 from "../images/Slider/Cyborg2.jpg";
+import Cyborg3 from "../images/Slider/Cyborg3.jpg";
+import Pirate1 from "../images/Slider/Pirate1.jpg";
+import Pirate2 from "../images/Slider/Pirate2.jpg";
+import Pirate3 from "../images/Slider/Pirate3.jpg";
+import Woman1 from "../images/Slider/Woman1.jpg";
+import Woman2 from "../images/Slider/Woman2.jpg";
+import Woman3 from "../images/Slider/Woman3.jpg";
+
 import "swiper/css";
 import { EffectCreative } from "swiper";
 
@@ -74,21 +87,21 @@ function Slider() {
           >
             <SwiperSlide>
               <img
-                src={Assassin1}
+                src={Billionaire1}
                 className="mx-auto h-[80vh] object-cover "
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={Assassin2}
+                src={Billionaire2}
                 className="mx-auto h-[80vh] object-cover"
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={Assassin3}
+                src={Billionaire3}
                 className="mx-auto h-[80vh] object-cover"
                 alt=""
               />
@@ -119,21 +132,21 @@ function Slider() {
           >
             <SwiperSlide>
               <img
-                src={Assassin1}
+                src={Cyborg1}
                 className="mx-auto h-[80vh] object-cover "
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={Assassin2}
+                src={Cyborg2}
                 className="mx-auto h-[80vh] object-cover"
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={Assassin3}
+                src={Cyborg3}
                 className="mx-auto h-[80vh] object-cover"
                 alt=""
               />
@@ -164,21 +177,21 @@ function Slider() {
           >
             <SwiperSlide>
               <img
-                src={Assassin1}
+                src={Pirate1}
                 className="mx-auto h-[80vh] object-cover "
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={Assassin2}
+                src={Pirate2}
                 className="mx-auto h-[80vh] object-cover"
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={Assassin3}
+                src={Pirate3}
                 className="mx-auto h-[80vh] object-cover"
                 alt=""
               />
@@ -209,21 +222,21 @@ function Slider() {
           >
             <SwiperSlide>
               <img
-                src={Assassin1}
+                src={Woman1}
                 className="mx-auto h-[80vh] object-cover "
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={Assassin2}
+                src={Woman2}
                 className="mx-auto h-[80vh] object-cover"
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={Assassin3}
+                src={Woman3}
                 className="mx-auto h-[80vh] object-cover"
                 alt=""
               />
