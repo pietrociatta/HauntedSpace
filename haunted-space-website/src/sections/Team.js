@@ -5,6 +5,8 @@ import Giorgio from '../images/Giorgio-Member.svg';
 import Federico from '../images/Federico-Member.svg';
 import Igf from '../images/Igf-Member.svg';
 import Aries from '../images/Aries-Member.svg';
+import premio3 from '../images/premio3.png';
+import { Link } from 'react-router-dom';
 import {
   AiFillLinkedin,
   AiOutlineLink,
@@ -42,7 +44,7 @@ function Team() {
             <div className="flex-row flex mt-2 space-x-1">
               <div className="flex-1 shapeButton sm:hidden  top-0 cursor-pointer text-white  bg-[#FA6A4F] p-[7px]">
                 <a
-                  href=""
+                  href="/"
                   className="flex font-BlenderBook items-center space-x-[1px] "
                 >
                   <AiOutlineTwitter size={25} />
@@ -51,7 +53,7 @@ function Team() {
               </div>
               <div className="flex-1 sm:hidden  top-0 left-[39px] border-l-[1px] border-[#cb4d37] cursor-pointer text-white  bg-[#FA6A4F] p-[7px]">
                 <a
-                  href=""
+                  href="/"
                   className="flex font-BlenderBook items-center space-x-[1px] "
                 >
                   <AiFillLinkedin size={25} />
@@ -76,14 +78,63 @@ function Team() {
             <img src={Aries} className="mx-auto" alt="" />
           </div>
         </div>
-        <div className=" pt-14  mx-5">
-          <div className="flex items-center gap-3 max-w-[300px] h-[80px] mx-auto justify-center text-white bg-[#FA6A4F] shapeButton font-BlenderMedium shape  text-2xl">
-            <div className="flex items-center">
-              <div className="animate-bounceAlpha ">></div>
+        <Link to="/teampage">
+          <div className=" pt-14  mx-5">
+            <div className="flex items-center gap-3 max-w-[300px] h-[80px] mx-auto justify-center text-white bg-[#FA6A4F] shapeButton font-BlenderMedium shape  text-2xl">
+              <div className="flex items-center">
+                <div className="animate-bounceAlpha ">></div>
+              </div>
+
+              <div>ALL MEMBERS...</div>
+              <div className="flex items-center rotate-180">
+                <div className="animate-bounceAlpha ">></div>
+              </div>
             </div>
-            <div>JOIN NOW</div>
-            <div className="flex items-center rotate-180">
-              <div className="animate-bounceAlpha ">></div>
+          </div>
+        </Link>
+        <div className="text-center textlight font-BlenderBold pt-28 text-white  text-3xl sm:text-[45px]">
+          PARTNER & INCUBATOR
+        </div>
+        <div className="flex justify-center gap-2 pt-5 ">
+          <div className="bg-[#932121] shape1Divider h-1 w-6"></div>
+          <div className="bg-[#FA6A4F] shape2Divider h-1 w-20"></div>
+        </div>
+        <div className="w-1/2 mx-auto sm:-mt-20">
+          <img src={premio3} alt="" />
+        </div>
+        <div>
+          <div className="text-center textlight font-BlenderBold pt-10 text-white  text-3xl sm:text-[45px]">
+            COLLABORATIONS
+          </div>
+          <div className="flex justify-center gap-2 pt-5 ">
+            <div className="bg-[#932121] shape1Divider h-1 w-6"></div>
+            <div className="bg-[#FA6A4F] shape2Divider h-1 w-20"></div>
+          </div>
+
+          <div className="xl:px-56 lg:px-44 sm:px-12 px-8 pt-4 pb-6">
+            <div className="grid sm:grid-cols-3 grid-cols-2 gap-6">
+              <div>
+                <img
+                  src={premio3}
+                  className="sm:w-[80%] w-[60%] mx-auto "
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <img
+                  src={premio3}
+                  className="sm:w-[80%] w-[60%] mx-auto "
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  src={premio3}
+                  className="sm:w-[80%] w-[60%] mx-auto "
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>

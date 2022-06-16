@@ -15,6 +15,7 @@ module.exports = {
         bulletActive: "url('./images/Components/BulletActive.svg')",
         IgfBg: "url('./images/IgfTeam.jpg')",
         sfondoVideo: "url('./images/sfondoVideo.jpg')",
+        sfondoSpazio: "url('./images/sfondospazio.jpeg')",
       },
       fontFamily: {
         BlenderBold: ['Blender-Bold', 'sans-serif'],
@@ -36,5 +37,12 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+
+  corePlugins: {
+    aspectRatio: false,
+  },
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+    require('tailwindcss-debug-screens'),
+  ],
 };

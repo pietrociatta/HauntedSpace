@@ -54,6 +54,16 @@ function RoadMap() {
       h1: 'RELEASE OF HAUNTED SPACE PLAY-TO-EARN',
       p: 'Release of the official Multiplayer Play-To-Earn',
     },
+    {
+      id: 6,
+      h1: 'PHASE 6 RELEASE OF HAUNTED SPACE PLAY-TO-EARN',
+      p: 'Release of the official Multiplayer Play-To-Earn',
+    },
+    {
+      id: 7,
+      h1: 'PHASE 7 OF HAUNTED SPACE PLAY-TO-EARN',
+      p: 'Release of the official Multiplayer Play-To-Earn',
+    },
   ];
 
   const [Current, setCurrent] = useState(value[0].id);
@@ -61,13 +71,13 @@ function RoadMap() {
   const [paragrafo, setParagrafo] = useState(value[0].p);
   return (
     <div
-      className="bg-[#18191f] bg-pattern bg-repeat  w-full   "
+      className="bg-[#18191f] bg-pattern bg-repeat  w-full    "
       ref={parentRef}
     >
       <div className="bg-dividerColor z-10 mx-0 rotate-180   -my-6  w-full bg-cover absolute bg-center  bg-repeat-x ">
         <h1 className="opacity-0 p-2 ">ciao</h1>
       </div>
-      <div className="text-center textlight font-BlenderBold pt-20 text-white sm:text-4xl text-3xl">
+      <div className="text-center textlight font-BlenderBold pt-20 text-white text-[45px] lg:text-[45px]">
         ROADMAP
       </div>
       <div className="flex justify-center gap-2 pt-2 pb-6">
@@ -132,12 +142,12 @@ function RoadMap() {
                 : 'bg-active brightness-50 bg-no-repeat bg-cover  h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center  font-BlenderBold text-white sm:text-xl text-2xl '
             }
             onClick={() => {
-              setCurrent(3);
-              setTitolo(value[4].h1);
-              setParagrafo(value[4].p);
+              setCurrent(7);
+              setTitolo(value[6].h1);
+              setParagrafo(value[6].p);
             }}
           >
-            PHASE 5
+            PHASE 7
           </button>
         </div>
 
@@ -184,33 +194,34 @@ function RoadMap() {
               }
               onClick={() => setCurrent(3)}
             ></button>
+
             <button
               className={
-                Current === 3
+                Current === 6
                   ? 'bg-bulletActive  bg-no-repeat bg-cover  h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center'
                   : 'bg-bullet  bg-no-repeat bg-cover h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center '
               }
-              onClick={() => setCurrent(3)}
+              onClick={() => setCurrent(6)}
             ></button>
             <button
               className={
-                Current === 3
+                Current === 7
                   ? 'bg-bulletActive  bg-no-repeat bg-cover  h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center'
                   : 'bg-bullet  bg-no-repeat bg-cover h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center '
               }
-              onClick={() => setCurrent(3)}
+              onClick={() => setCurrent(7)}
             ></button>
             <button
               className={
-                Current === 3
+                Current === 8
                   ? 'bg-bulletActive  bg-no-repeat bg-cover  h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center'
                   : 'bg-bullet  bg-no-repeat bg-cover h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center '
               }
-              onClick={() => setCurrent(3)}
+              onClick={() => setCurrent(8)}
             ></button>
           </div>
         </div>
-        <div className="h-7 flex w-[1940px] relative z-0 -mt-[43px] items-center  ">
+        <div className="h-7 flex w-[1940px] relative z-0 -mt-[30px] items-center  ">
           <div className="bg-white h-[3px] w-full" />
         </div>
         <div className="grid grid-flow-col auto-cols-[250px] p-10 text-center">
@@ -247,14 +258,14 @@ function RoadMap() {
           <div></div>
           <button
             className={
-              Current === 5
+              Current === 6
                 ? 'bg-active  bg-no-repeat bg-cover h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center textlight font-BlenderBold text-white sm:text-xl text-2xl'
                 : 'bg-active brightness-50 bg-no-repeat bg-cover  h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center  font-BlenderBold text-white sm:text-xl text-2xl'
             }
             onClick={() => {
-              setCurrent(5);
-              setTitolo(value[3].h1);
-              setParagrafo(value[3].p);
+              setCurrent(6);
+              setTitolo(value[4].h1);
+              setParagrafo(value[4].p);
             }}
           >
             PHASE 6
@@ -262,12 +273,12 @@ function RoadMap() {
           <div></div>
           <button
             className={
-              Current === 5
+              Current === 8
                 ? 'bg-active  bg-no-repeat bg-cover h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center textlight font-BlenderBold text-white sm:text-xl text-2xl'
                 : 'bg-active brightness-50 bg-no-repeat bg-cover  h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center  font-BlenderBold text-white sm:text-xl text-2xl'
             }
             onClick={() => {
-              setCurrent(5);
+              setCurrent(8);
               setTitolo(value[3].h1);
               setParagrafo(value[3].p);
             }}
@@ -293,7 +304,7 @@ function RoadMap() {
             </div>
           </>
         )}
-        <div className="relative text-right p-10 pb-14 mx-5">
+        <div className="relative text-right p-10 pb-20 mx-5">
           <h1 className="textlight font-BlenderBold text-white sm:text-4xl text-3xl">
             {titolo}
           </h1>
@@ -302,7 +313,7 @@ function RoadMap() {
           </p>
         </div>
       </div>
-      <div className="bg-dividerColor z-10 mx-0   w-full bg-cover absolute bg-center  bg-repeat-x ">
+      <div className="bg-dividerColor z-10 mx-0    w-full bg-cover absolute bg-center  bg-repeat-x ">
         <h1 className="opacity-0 p-2 ">ciao</h1>
       </div>
     </div>

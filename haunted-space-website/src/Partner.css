@@ -1,0 +1,39 @@
+.tech-slideshow {
+  height: 100px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid black;
+  /* THIS IS A HACK TO REMOVE THE "WHITESPACE" BETWEEN IMAGES.
+                    YOU COULD ALSO PUT ALL OF THE IMAGES ON THE SAME LINE
+                    (eg: <img src=""><img src=""><img src=""> 
+                    with no spaces or line-breaks),
+                    BUT THAT MAKES THE CODE LESS READABLE SO I'M DOING THIS
+                    FOR THE SAKE OF CREATING THIS EXAMPLE FOR YOU */
+}
+
+.mover-1 {
+  height: 150px;
+  width: max-content;
+
+  position: absolute;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+
+  animation: moveSlideshow 15s linear infinite;
+}
+
+.mover-1 img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  margin-right: 50px;
+}
+
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-1250px);
+  }
+}

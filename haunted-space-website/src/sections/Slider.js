@@ -1,34 +1,34 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
-import Assassin1 from "../images/Slider/Assassin1.jpg";
-import Assassin2 from "../images/Slider/Assassin2.jpg";
-import Assassin3 from "../images/Slider/Assassin3.jpg";
-import Billionaire1 from "../images/Slider/Billionaire1.jpg";
-import Billionaire2 from "../images/Slider/Billionaire2.jpg";
-import Billionaire3 from "../images/Slider/Billionaire3.jpg";
-import Cyborg1 from "../images/Slider/Cyborg1.jpg";
-import Cyborg2 from "../images/Slider/Cyborg2.jpg";
-import Cyborg3 from "../images/Slider/Cyborg3.jpg";
-import Pirate1 from "../images/Slider/Pirate1.jpg";
-import Pirate2 from "../images/Slider/Pirate2.jpg";
-import Pirate3 from "../images/Slider/Pirate3.jpg";
-import Woman1 from "../images/Slider/Woman1.jpg";
-import Woman2 from "../images/Slider/Woman2.jpg";
-import Woman3 from "../images/Slider/Woman3.jpg";
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper';
+import Assassin1 from '../images/Slider/Assassin1.jpg';
+import Assassin2 from '../images/Slider/Assassin2.jpg';
+import Assassin3 from '../images/Slider/Assassin3.jpg';
+import Billionaire1 from '../images/Slider/Billionaire1.jpg';
+import Billionaire2 from '../images/Slider/Billionaire2.jpg';
+import Billionaire3 from '../images/Slider/Billionaire3.jpg';
+import Cyborg1 from '../images/Slider/Cyborg1.jpg';
+import Cyborg2 from '../images/Slider/Cyborg2.jpg';
+import Cyborg3 from '../images/Slider/Cyborg3.jpg';
+import Pirate1 from '../images/Slider/Pirate1.jpg';
+import Pirate2 from '../images/Slider/Pirate2.jpg';
+import Pirate3 from '../images/Slider/Pirate3.jpg';
+import Woman1 from '../images/Slider/Woman1.jpg';
+import Woman2 from '../images/Slider/Woman2.jpg';
+import Woman3 from '../images/Slider/Woman3.jpg';
 
-import "swiper/css";
-import { EffectCreative } from "swiper";
+import 'swiper/css';
+import { EffectCreative } from 'swiper';
 
 function Slider() {
   return (
-    <div className="inline-block">
-      <div className="bg-divider z-10 mx-0  w-full bg-cover absolute bg-center  bg-repeat-x -m-1">
+    <div className="inline-block ">
+      <div className="bg-divider z-10 mx-0   w-full bg-cover absolute bg-center  bg-repeat-x -m-1">
         <h1 className="opacity-0 p-2 ">ciao</h1>
       </div>
 
-      <div className="flex    ">
-        <div className="w-[25vw] sliderCharSide  z-[1]  ">
+      <div className="flex ">
+        <div className="w-[25vw]  sliderCharSide  z-[1]  ">
           <Swiper
             slidesPerView={1}
             loop={true}
@@ -67,14 +67,14 @@ function Slider() {
           <Swiper
             slidesPerView={1}
             loop={true}
-            effect={"creative"}
+            effect={'creative'}
             creativeEffect={{
               prev: {
                 shadow: true,
                 translate: [0, 0, -1],
               },
               next: {
-                translate: [0, "100%", 0],
+                translate: [0, '100%', 0],
               },
             }}
             className="mySwiper"
@@ -112,14 +112,14 @@ function Slider() {
           <Swiper
             slidesPerView={1}
             loop={true}
-            effect={"creative"}
+            effect={'creative'}
             creativeEffect={{
               prev: {
                 shadow: true,
                 translate: [0, 0, -1],
               },
               next: {
-                translate: [0, "-100%", 0],
+                translate: [0, '-100%', 0],
               },
             }}
             className="mySwiper"
@@ -157,14 +157,14 @@ function Slider() {
           <Swiper
             slidesPerView={1}
             loop={true}
-            effect={"creative"}
+            effect={'creative'}
             creativeEffect={{
               prev: {
                 shadow: true,
                 translate: [0, 0, -1],
               },
               next: {
-                translate: [0, "100%", 0],
+                translate: [0, '100%', 0],
               },
             }}
             className="mySwiper"
@@ -202,14 +202,14 @@ function Slider() {
           <Swiper
             slidesPerView={1}
             loop={true}
-            effect={"creative"}
+            effect={'creative'}
             creativeEffect={{
               prev: {
                 shadow: true,
                 translate: [-1, 0, 0],
               },
               next: {
-                translate: ["-100%", 0, 0],
+                translate: ['-100%', 0, 0],
               },
             }}
             className="mySwiper"

@@ -1,14 +1,17 @@
-import React from "react";
-import Characters from "../images/SpaceShip.png";
+import React from 'react';
+import Characters from '../images/singleplayerimage.png';
 function SinglePlayer() {
   return (
     <div className="z-30  ">
       <div>
-        <div className="bg-[#272932] bg-pattern lg:flex-row flex-col-reverse flex 	 items-center pt-16 pb-12   bg-repeat">
+        {/* <div className="bg-divider z-10 mx-0  w-full bg-cover absolute bg-center  bg-repeat-x -m-1">
+          <h1 className="opacity-0 p-3 ">ciao</h1>
+        </div> */}
+        <div className="bg-sfondoSpazio lg:flex-row flex-col-reverse flex 	 items-center pt-16 pb-16   bg-repeat">
           <div className=" lg:w-[50%]  mx-auto">
             <img
               src={Characters}
-              className="lg:w-[90%] xl:w-[90%] w-[80%] pt-16 mx-auto"
+              className="lg:w-[70%] xl:w-[90%] w-[80%] pt-16 mx-auto"
               alt=""
             />
           </div>
@@ -41,9 +44,6 @@ function SinglePlayer() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="bg-divider z-10 mx-0  w-full bg-cover absolute bg-center  bg-repeat-x -m-1">
-        <h1 className="opacity-0 p-2 ">ciao</h1>
       </div>
     </div>
   );

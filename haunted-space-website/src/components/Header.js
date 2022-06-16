@@ -14,7 +14,7 @@ function Header() {
 
   const showSidebar = () => setSidebar(!sidebar);
   return (
-    <div className="fixed w-full z-20 ">
+    <div className="fixed w-full z-50 ">
       <div className="bg-[#272932] w-full z-40 fixed   ">
         <header className="flex justify-between items-center mx-[15px] pt-[15px]   text-white font-BlenderMedium  ">
           <div className="max-w-[250px] ">
