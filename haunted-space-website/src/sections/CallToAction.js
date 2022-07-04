@@ -23,31 +23,31 @@ function Product() {
                 <div>
                   <img
                     src={premio1}
-                    className="sm:w-[80%] w-[60%] mx-auto "
+                    className="sm:w-[80%] sm:mt-0 -mt-10  2xl:w-[50%] w-[60%] mx-auto "
                     alt=""
                   />
-                  <p className="text-center  font-BlenderBook text-white sm:text-lg text-base  ">
-                    White paper and details about the game are coming soon.
+                  <p className="text-center sm:mt-0 -mt-16 font-BlenderBook text-white sm:text-lg text-base  ">
+                    Second Place in the Huobi Hackathon by Nextype
                   </p>
                 </div>
                 <div className="flex flex-col justify-between">
                   <img
                     src={premio2}
-                    className="sm:w-[70%] w-[50%] mx-auto "
+                    className="sm:w-[70%] 2xl:w-[50%] w-[50%] mx-auto "
                     alt=""
                   />
                   <p className="text-center  font-BlenderBook text-white sm:text-lg pt-4 text-base ">
-                    White paper and details about the game are coming soon.
+                    The Epic Mega Grant
                   </p>
                 </div>
                 <div>
                   <img
                     src={premio3}
-                    className="sm:w-[80%] w-[60%] mx-auto "
+                    className="sm:w-[80%] sm:mt-0 -mt-16  2xl:w-[50%] w-[60%] mx-auto "
                     alt=""
                   />
-                  <p className="text-center  font-BlenderBook text-white sm:text-lg text-base ">
-                    White paper and details about the game are coming soon.
+                  <p className="text-center sm:mt-0 -mt-16  font-BlenderBook text-white sm:text-lg text-base ">
+                    Forbes Best NFT Emerging Project of 2022
                   </p>
                 </div>
               </div>

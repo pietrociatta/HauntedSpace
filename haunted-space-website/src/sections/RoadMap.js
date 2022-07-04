@@ -31,38 +31,54 @@ function RoadMap() {
   let value = [
     {
       id: 1,
-      h1: 'PUBLIC MINT',
-      p: 'WL/Presale, Private Sale and Public Sale of the exclusive and unique NFT OG collection.',
+      h1: 'PUBLIC MINT (Q3 2022)',
+      p: 'Public mint of OG NFT Collection',
     },
     {
       id: 2,
-      h1: 'CREATION OF THE UTILITY TOKEN',
-      p: 'Seed, Private sale, Public sale and listing of the Utility token',
+      h1: 'SEED & PRIVATE ROUND (Q3/Q4 2022)',
+      p: 'Governance and Utility tokens SEED and PRIVATE round',
     },
     {
       id: 3,
-      h1: 'SINGLE PLAYER GAME RELEASE',
-      p: 'Release of Haunted Space Single Player',
+      h1: ' SINGLE PLAYER (Q4 2022)',
+      p: 'Single-Player Beta release on the mainstream gaming platforms',
     },
     {
       id: 4,
-      h1: 'CREATION OF A P2E MINIGAME',
-      p: 'Right after the creation of the single player, it will be created a minigame',
+      h1: 'PUBLIC ROUND (Q4 2022)',
+      p: 'Governance token PUBLIC round',
     },
     {
       id: 5,
-      h1: 'RELEASE OF HAUNTED SPACE PLAY-TO-EARN',
-      p: 'Release of the official Multiplayer Play-To-Earn',
+      h1: 'RELEASE ON XBOX/PS/Steam (Q4 2022)',
+      p: 'Single-player game release on Xbox, Playstation and Steam',
     },
     {
       id: 6,
-      h1: 'PHASE 6 RELEASE OF HAUNTED SPACE PLAY-TO-EARN',
-      p: 'Release of the official Multiplayer Play-To-Earn',
+      h1: 'TOKENS LISTING (Q1/Q2 2023)',
+      p: 'Governance token listing on Centralized and Decentrilized exchanges',
     },
     {
       id: 7,
-      h1: 'PHASE 7 OF HAUNTED SPACE PLAY-TO-EARN',
-      p: 'Release of the official Multiplayer Play-To-Earn',
+      h1: 'MARKETPLACE OPENING (Q1/Q2 2023)',
+      p: 'Marketplace opening and first Battleships NFTs sale',
+    },
+    {
+      id: 8,
+      h1: 'P&E Beta release (Q2/Q3 2023)',
+      p: 'Multiplayer P&E Public release',
+    },
+
+    {
+      id: 9,
+      h1: 'NEW GAME MODE (Q3/Q4 2023)',
+      p: 'New game modes implementation and NFT sales',
+    },
+    {
+      id: 10,
+      h1: 'TOURNAMENTS (Q1/Q2 2024)',
+      p: 'Tournaments implementation to reach a sustainable gaming ecosystem',
     },
   ];
 
@@ -107,12 +123,12 @@ function RoadMap() {
           <div className="w-full"></div>
           <button
             className={
-              Current === 2
+              Current === 3
                 ? 'bg-active  bg-no-repeat bg-cover  h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center textlight font-BlenderBold text-white sm:text-xl text-2xl'
                 : 'bg-active brightness-50 bg-no-repeat bg-cover  h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center  font-BlenderBold text-white sm:text-xl text-2xl '
             }
             onClick={() => {
-              setCurrent(2);
+              setCurrent(3);
               setTitolo(value[2].h1);
               setParagrafo(value[2].p);
             }}
@@ -122,12 +138,12 @@ function RoadMap() {
           <div className="w-full"></div>
           <button
             className={
-              Current === 3
+              Current === 5
                 ? 'bg-active  bg-no-repeat bg-cover  h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center textlight font-BlenderBold text-white sm:text-xl text-2xl'
                 : 'bg-active brightness-50 bg-no-repeat bg-cover  h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center  font-BlenderBold text-white sm:text-xl text-2xl '
             }
             onClick={() => {
-              setCurrent(3);
+              setCurrent(5);
               setTitolo(value[4].h1);
               setParagrafo(value[4].p);
             }}
@@ -137,7 +153,7 @@ function RoadMap() {
           <div className="w-full"></div>
           <button
             className={
-              Current === 3
+              Current === 7
                 ? 'bg-active  bg-no-repeat bg-cover  h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center textlight font-BlenderBold text-white sm:text-xl text-2xl'
                 : 'bg-active brightness-50 bg-no-repeat bg-cover  h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center  font-BlenderBold text-white sm:text-xl text-2xl '
             }
@@ -148,6 +164,21 @@ function RoadMap() {
             }}
           >
             PHASE 7
+          </button>
+          <div className="w-full"></div>
+          <button
+            className={
+              Current === 9
+                ? 'bg-active  bg-no-repeat bg-cover  h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center textlight font-BlenderBold text-white sm:text-xl text-2xl'
+                : 'bg-active brightness-50 bg-no-repeat bg-cover  h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center  font-BlenderBold text-white sm:text-xl text-2xl '
+            }
+            onClick={() => {
+              setCurrent(9);
+              setTitolo(value[8].h1);
+              setParagrafo(value[8].p);
+            }}
+          >
+            PHASE 9
           </button>
         </div>
 
@@ -164,14 +195,6 @@ function RoadMap() {
 
             <button
               className={
-                Current === 4
-                  ? 'bg-bulletActive  bg-no-repeat bg-cover  h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center'
-                  : 'bg-bullet  bg-no-repeat bg-cover h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center '
-              }
-              onClick={() => setCurrent(4)}
-            ></button>
-            <button
-              className={
                 Current === 2
                   ? 'bg-bulletActive  bg-no-repeat bg-cover  h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center'
                   : 'bg-bullet  bg-no-repeat bg-cover h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center '
@@ -180,19 +203,27 @@ function RoadMap() {
             ></button>
             <button
               className={
-                Current === 5
-                  ? 'bg-bulletActive  bg-no-repeat bg-cover  h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center'
-                  : 'bg-bullet  bg-no-repeat bg-cover h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center '
-              }
-              onClick={() => setCurrent(5)}
-            ></button>
-            <button
-              className={
                 Current === 3
                   ? 'bg-bulletActive  bg-no-repeat bg-cover  h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center'
                   : 'bg-bullet  bg-no-repeat bg-cover h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center '
               }
               onClick={() => setCurrent(3)}
+            ></button>
+            <button
+              className={
+                Current === 4
+                  ? 'bg-bulletActive  bg-no-repeat bg-cover  h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center'
+                  : 'bg-bullet  bg-no-repeat bg-cover h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center '
+              }
+              onClick={() => setCurrent(4)}
+            ></button>
+            <button
+              className={
+                Current === 5
+                  ? 'bg-bulletActive  bg-no-repeat bg-cover  h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center'
+                  : 'bg-bullet  bg-no-repeat bg-cover h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center '
+              }
+              onClick={() => setCurrent(5)}
             ></button>
 
             <button
@@ -219,21 +250,37 @@ function RoadMap() {
               }
               onClick={() => setCurrent(8)}
             ></button>
+            <button
+              className={
+                Current === 9
+                  ? 'bg-bulletActive  bg-no-repeat bg-cover  h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center'
+                  : 'bg-bullet  bg-no-repeat bg-cover h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center '
+              }
+              onClick={() => setCurrent(9)}
+            ></button>
+            <button
+              className={
+                Current === 10
+                  ? 'bg-bulletActive  bg-no-repeat bg-cover  h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center'
+                  : 'bg-bullet  bg-no-repeat bg-cover h-[50px] w-[50px] lg:h-[50px] lg:w-[50px] mx-auto bg-center '
+              }
+              onClick={() => setCurrent(10)}
+            ></button>
           </div>
         </div>
-        <div className="h-7 flex w-[1940px] relative z-0 -mt-[30px] items-center  ">
+        <div className="h-7 flex w-[2800px] relative z-0 -mt-[30px] items-center  ">
           <div className="bg-white h-[3px] w-full" />
         </div>
         <div className="grid grid-flow-col auto-cols-[250px] p-10 text-center">
           <div className="w-full"></div>
           <button
             className={
-              Current === 4
+              Current === 2
                 ? 'bg-active  bg-no-repeat bg-cover h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center textlight font-BlenderBold text-white sm:text-xl text-2xl'
                 : 'bg-active brightness-50 bg-no-repeat bg-cover  h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center  font-BlenderBold text-white sm:text-xl text-2xl '
             }
             onClick={() => {
-              setCurrent(4);
+              setCurrent(2);
               setTitolo(value[1].h1);
               setParagrafo(value[1].p);
             }}
@@ -243,12 +290,12 @@ function RoadMap() {
           <div></div>
           <button
             className={
-              Current === 5
+              Current === 4
                 ? 'bg-active  bg-no-repeat bg-cover h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center textlight font-BlenderBold text-white sm:text-xl text-2xl'
                 : 'bg-active brightness-50 bg-no-repeat bg-cover  h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center  font-BlenderBold text-white sm:text-xl text-2xl'
             }
             onClick={() => {
-              setCurrent(5);
+              setCurrent(4);
               setTitolo(value[3].h1);
               setParagrafo(value[3].p);
             }}
@@ -264,8 +311,8 @@ function RoadMap() {
             }
             onClick={() => {
               setCurrent(6);
-              setTitolo(value[4].h1);
-              setParagrafo(value[4].p);
+              setTitolo(value[5].h1);
+              setParagrafo(value[5].p);
             }}
           >
             PHASE 6
@@ -279,12 +326,28 @@ function RoadMap() {
             }
             onClick={() => {
               setCurrent(8);
-              setTitolo(value[3].h1);
-              setParagrafo(value[3].p);
+              setTitolo(value[7].h1);
+              setParagrafo(value[7].p);
             }}
           >
             PHASE 8
           </button>
+          <div></div>
+          <button
+            className={
+              Current === 10
+                ? 'bg-active  bg-no-repeat bg-cover h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center textlight font-BlenderBold text-white sm:text-xl text-2xl'
+                : 'bg-active brightness-50 bg-no-repeat bg-cover  h-[79px] w-[180px] lg:h-[101px] lg:w-[230px] mx-auto bg-center text-center  font-BlenderBold text-white sm:text-xl text-2xl'
+            }
+            onClick={() => {
+              setCurrent(10);
+              setTitolo(value[9].h1);
+              setParagrafo(value[9].p);
+            }}
+          >
+            PHASE 10
+          </button>
+          <div className=""></div>
         </div>
       </div>
       <div className="relative mx-4 ">

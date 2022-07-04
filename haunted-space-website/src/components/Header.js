@@ -5,7 +5,7 @@ import { AiFillHome, AiOutlineTwitter } from 'react-icons/ai';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { IoMdArrowDropright, IoMdClose } from 'react-icons/io';
 import { GiConsoleController, GiCoins } from 'react-icons/gi';
-import { FaDiscord, FaUser } from 'react-icons/fa';
+import { FaDiscord, FaLink, FaMedium, FaUser } from 'react-icons/fa';
 import { RiRoadMapFill, RiTeamFill } from 'react-icons/ri';
 import { Link } from 'react-scroll';
 
@@ -33,7 +33,7 @@ function Header() {
                     THE GAME
                   </li>
                 </Link>
-                <Link smooth to="singleplayer">
+                <Link smooth to="playtoearn">
                   <li className="cursor-pointer hover:scale-105 transition">
                     SINGLE PLAYER
                   </li>
@@ -58,10 +58,31 @@ function Header() {
             </div>
             <div className="flex space-x-2">
               <div className="shape sm:flex  hidden items-center bg-[#FA6A4F] p-2">
-                <AiOutlineTwitter size={25} />
+                <a
+                  target="_blank"
+                  href="https://twitter.com/HauntedSpace_"
+                  rel="noreferrer"
+                >
+                  <AiOutlineTwitter size={25} />
+                </a>
               </div>
               <div className=" sm:flex hidden items-center bg-[#FA6A4F] p-2">
-                <FaDiscord size={25} />
+                <a
+                  target="_blank"
+                  href="https://discord.gg/hauntedspace"
+                  rel="noreferrer"
+                >
+                  <FaDiscord size={25} />
+                </a>
+              </div>
+              <div className=" sm:flex hidden items-center bg-[#FA6A4F] px-[10px]">
+                <a
+                  target="_blank"
+                  href="https://medium.com/@hauntedspace"
+                  rel="noreferrer"
+                >
+                  <FaMedium size={20} />
+                </a>
               </div>
             </div>
             <div
@@ -190,10 +211,31 @@ function Header() {
           </div>
           <div className=" justify-center text-white bg-[#272932] p-8 text-2xl gap-4  flex">
             <div>
-              <AiOutlineTwitter />
+              <a
+                target="_blank"
+                href="https://twitter.com/HauntedSpace_"
+                rel="noreferrer"
+              >
+                <AiOutlineTwitter />
+              </a>
             </div>
             <div>
-              <FaDiscord />
+              <a
+                target="_blank"
+                href="https://discord.gg/hauntedspace"
+                rel="noreferrer"
+              >
+                <FaDiscord />
+              </a>
+            </div>
+            <div>
+              <a
+                target="_blank"
+                href="https://medium.com/@hauntedspace"
+                rel="noreferrer"
+              >
+                <FaMedium />
+              </a>
             </div>
           </div>
         </nav>

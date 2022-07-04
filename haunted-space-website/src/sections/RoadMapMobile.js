@@ -11,28 +11,54 @@ function RoadMapMobile() {
   let value = [
     {
       id: 1,
-      h1: 'PUBLIC MINT',
-      p: 'WL/Presale, Private Sale and Public Sale of the exclusive and unique NFT OG collection.',
+      h1: 'PUBLIC MINT (Q3 2022)',
+      p: 'Public mint of OG NFT Collection',
     },
     {
       id: 2,
-      h1: 'CREATION OF THE UTILITY TOKEN',
-      p: 'Seed, Private sale, Public sale and listing of the Utility token',
+      h1: 'SEED & PRIVATE ROUND (Q3/Q4 2022)',
+      p: 'Governance and Utility tokens SEED and PRIVATE round',
     },
     {
       id: 3,
-      h1: 'SINGLE PLAYER GAME RELEASE',
-      p: 'Release of Haunted Space Single Player',
+      h1: ' SINGLE PLAYER (Q4 2022)',
+      p: 'Single-Player Beta release on the mainstream gaming platforms',
     },
     {
       id: 4,
-      h1: 'CREATION OF A P2E MINIGAME',
-      p: 'Right after the creation of the single player, it will be created a minigame',
+      h1: 'PUBLIC ROUND (Q4 2022)',
+      p: 'Governance token PUBLIC round',
     },
     {
       id: 5,
-      h1: 'RELEASE OF HAUNTED SPACE PLAY-TO-EARN',
-      p: 'Release of the official Multiplayer Play-To-Earn',
+      h1: 'RELEASE ON XBOX/PS/Steam (Q4 2022)',
+      p: 'Single-player game release on Xbox, Playstation and Steam',
+    },
+    {
+      id: 6,
+      h1: 'TOKENS LISTING (Q1/Q2 2023)',
+      p: 'Governance token listing on Centralized and Decentrilized exchanges',
+    },
+    {
+      id: 7,
+      h1: 'MARKETPLACE OPENING (Q1/Q2 2023)',
+      p: 'Marketplace opening and first Battleships NFTs sale',
+    },
+    {
+      id: 8,
+      h1: 'P&E Beta release (Q2/Q3 2023)',
+      p: 'Multiplayer P&E Public release',
+    },
+
+    {
+      id: 9,
+      h1: 'NEW GAME MODE (Q3/Q4 2023)',
+      p: 'New game modes implementation and NFT sales',
+    },
+    {
+      id: 10,
+      h1: 'TOURNAMENTS (Q1/Q2 2024)',
+      p: 'Tournaments implementation to reach a sustainable gaming ecosystem',
     },
   ];
 
@@ -84,6 +110,21 @@ function RoadMapMobile() {
           </SwiperSlide>
           <SwiperSlide>
             <h1>PHASE 5</h1>
+          </SwiperSlide>
+          <SwiperSlide>
+            <h1>PHASE 6</h1>
+          </SwiperSlide>
+          <SwiperSlide>
+            <h1>PHASE 7</h1>
+          </SwiperSlide>
+          <SwiperSlide>
+            <h1>PHASE 8</h1>
+          </SwiperSlide>
+          <SwiperSlide>
+            <h1>PHASE 9</h1>
+          </SwiperSlide>
+          <SwiperSlide>
+            <h1>PHASE 10</h1>
           </SwiperSlide>
         </Swiper>
       </div>

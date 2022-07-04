@@ -19,16 +19,22 @@ function CalltoAction2() {
                 White paper and details about the game are coming soon.
               </p>
             </div>
-            <div>
-              <div className="flex items-center gap-3 sm:w-1/3 md:w-1/4 lg:w-1/4 xl:w-1/5 w-4/5 h-[80px] mx-auto justify-center text-white bg-[#FA6A4F] shapeButton font-BlenderMedium shape px-4 text-3xl py-0 ">
-                <div className="flex items-center">
-                  <div className="animate-bounceAlpha ">></div>
-                </div>
-                <div className="md:text-xl">JOIN NOW</div>
-                <div className="flex items-center rotate-180">
-                  <div className="animate-bounceAlpha ">></div>
-                </div>
-              </div>
+            <div className="sm:w-1/3 md:w-1/4 lg:w-1/4 xl:w-1/5 w-4/5 h-[80px] mx-auto">
+              <a
+                target="_blank"
+                href="https://discord.gg/hauntedspace"
+                rel="noreferrer"
+              >
+                <button className="flex w-full h-full items-center gap-3  justify-center text-white bg-[#FA6A4F] shapeButton font-BlenderMedium shape px-4 text-3xl py-0 ">
+                  <div className="flex items-center">
+                    <div className="animate-bounceAlpha ">></div>
+                  </div>
+                  <div className="md:text-xl">JOIN NOW</div>
+                  <div className="flex items-center rotate-180">
+                    <div className="animate-bounceAlpha ">></div>
+                  </div>
+                </button>
+              </a>
             </div>
           </div>
         </div>

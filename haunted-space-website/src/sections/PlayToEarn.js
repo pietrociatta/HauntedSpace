@@ -1,10 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Characters from '../images/CARDNFT.png';
 import Characters2 from '../images/singleplayerimage.png';
-
+import 'react-modal-video/scss/modal-video.scss';
+import ModalVideo from 'react-modal-video';
+import { IoMdArrowDropright } from 'react-icons/io';
 function PlayToEarn() {
+  const [isOpen, setOpen] = useState(false);
+  const [istrailerOpen, settrailerOpen] = useState(false);
+
   return (
     <div className="z-30  ">
+      <ModalVideo
+        channel="youtube"
+        autoplay
+        mute={0}
+        isOpen={isOpen}
+        videoId="DxaJQ6ojYH8"
+        onClose={() => setOpen(false)}
+      />
+      <ModalVideo
+        channel="youtube"
+        autoplay
+        mute={0}
+        isOpen={istrailerOpen}
+        videoId="Hpjqs3viW3g"
+        onClose={() => settrailerOpen(false)}
+      />
       <div>
         <div className="bg-divider z-10 mx-0  w-full bg-cover absolute bg-center  bg-repeat-x -m-1">
           <h1 className="opacity-0 p-2 ">ciao</h1>
@@ -12,7 +33,7 @@ function PlayToEarn() {
         <div className="bg-sfondoSpazio w-full bg-no-repeat bg-cover    items-center pt-32 pb-14   bg-re flex-col ">
           <div className="flex flex-col lg:flex-row items-center max-w-[1500px] mx-auto">
             <div className="mx-auto pt-4 lg:w-1/2  w-full  lg:px-8 px-10 ">
-              <div className=" ">
+              <div className=" text-center ">
                 <div className="text-center  textlight font-BlenderBold text-white sm:text-4xl md:text-[45px] text-3xl">
                   SINGLE PLAYER
                 </div>
@@ -34,9 +55,21 @@ function PlayToEarn() {
                     peaceful in the empty darkness of Neterun's space.
                   </p>
                 </div>
+                <button
+                  className="text-white bg-[#FA6A4F] shapeButton font-BlenderMedium flex gap-x-2 mx-auto items-center shape px-4 py-2 "
+                  onClick={() => settrailerOpen(true)}
+                >
+                  <span>
+                    <IoMdArrowDropright
+                      size={20}
+                      className="bg-white rounded-full text-[#FA6A4F]"
+                    />
+                  </span>
+                  WATCH SP TRAILER
+                </button>
               </div>
             </div>
-            <div className="lg:w-1/2 w-full  mx-auto">
+            <div className="lg:w-1/2 w-full mt-8  mx-auto">
               <img
                 src={Characters2}
                 className="lg:w-[90%] xl:w-[70%] w-[80%] mx-auto"
@@ -58,7 +91,7 @@ function PlayToEarn() {
                     alt=""
                   />
                 </div>
-                <div className="mx-auto pt-4 lg:w-3/5 w-full lg:px-9 px-10 ">
+                <div className="mx-auto text-center pt-4 lg:w-3/5 w-full lg:px-9 px-10 ">
                   <div className="text-center textlight font-BlenderBold text-white sm:text-4xl md:text-[45px]  text-3xl">
                     PLAY TO EARN
                   </div>
@@ -79,6 +112,18 @@ function PlayToEarn() {
                       give you the best experience you desire.
                     </p>
                   </div>
+                  <button
+                    className="text-white bg-[#FA6A4F] shapeButton font-BlenderMedium flex gap-x-2 mx-auto items-center shape px-4 py-2 "
+                    onClick={() => setOpen(true)}
+                  >
+                    <span>
+                      <IoMdArrowDropright
+                        size={20}
+                        className="bg-white rounded-full text-[#FA6A4F]"
+                      />
+                    </span>
+                    WATCH TEASER
+                  </button>
                 </div>
               </div>
             </div>

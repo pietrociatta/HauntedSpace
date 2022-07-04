@@ -20,7 +20,7 @@ import Team from '../sections/Team';
 
 function Home() {
   return (
-    <div className="debug-screens">
+    <div className="">
       <div className="">
         <Header />
       </div>
@@ -65,9 +65,6 @@ function Home() {
       </div>
       <div id="team">
         <Team />
-      </div>
-      <div>
-        <Partner />
       </div>
     </div>
   );

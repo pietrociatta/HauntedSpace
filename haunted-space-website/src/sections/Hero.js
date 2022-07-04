@@ -11,6 +11,7 @@ import ModalVideo from 'react-modal-video';
 
 function Hero() {
   const [isOpen, setOpen] = useState(false);
+  const [istrailerOpen, settrailerOpen] = useState(false);
   return (
     <div className="">
       <ModalVideo
@@ -18,36 +19,47 @@ function Hero() {
         autoplay
         mute={0}
         isOpen={isOpen}
-        videoId="DxaJQ6ojYH8"
+        videoId="_Km9D9tmnlU"
         onClose={() => setOpen(false)}
+      />
+      <ModalVideo
+        channel="youtube"
+        autoplay
+        mute={0}
+        isOpen={istrailerOpen}
+        videoId="DxaJQ6ojYH8"
+        onClose={() => settrailerOpen(false)}
       />
       <div className="hidden md:flex    2xl:h-[700px] xl:h-[700px] lg:h-[700px] md:h-[700px] 2xl:mb-[750px] xl:mb-[500px] lg:mb-[370px]  md:mb-56 sm:h-[900px]   ">
         <div className="flex flex-col justify-center items-center w-full    ">
           <img src={Logo} className="w-3/5 max-w-xl mx-auto" alt="" />
           <h2 className="font-BlenderBook text-xl text-center mt-2 text-white opacity-70">
-            The best game NFT projuect.
+            First Videogame that combines console and P&E
           </h2>
           <div className="mt-8  max-h-[350px] w-[50%] mx-auto">
             <div
-              className="bg-cover  bg-center bg-sfondoVideo w-full text-white flex items-center justify-center   mx-auto border-[2px] 
+              className=" w-full shapeHamburger  text-white flex items-center justify-center   mx-auto 
 
-border-[#FA6A4F] outline outline-offset-[6px] outline-4 outline-[#FA6A4F] aspect-w-16 aspect-h-8"
+  aspect-w-16 aspect-h-8"
             >
               <IoMdArrowDropright
-                className=" my-auto bg-[#FA6A4F] hover:bg-[#c14934] rounded-full  md:w-[150px] md:h-[150px] cursor-pointer mx-auto"
+                className=" my-auto  hover:bg-[#c14934]  md:w-[150px] md:h-[150px] cursor-pointer mx-auto"
                 onClick={() => setOpen(true)}
               />
             </div>
             <div className="flex justify-center pt-10 gap-4">
-              <button className="text-white bg-[#FA6A4F] shapeButton font-BlenderMedium shape px-4 py-2 ">
-                ESPLORA
-              </button>
-              <button
-                className="text-white  border-[#FA6A4F] border-2  font-BlenderMedium  px-4 py-2 "
-                onClick={() => setOpen(true)}
+              {/* <button
+                className="text-white bg-[#FA6A4F] shapeButton font-BlenderMedium shape px-4 py-2 "
+                onClick={() => settrailerOpen(true)}
+              >
+                WATCH TRAILER
+              </button> */}
+              {/* <button
+                className="text-white   border-[#FA6A4F] border-2  font-BlenderMedium  px-4 py-2 "
+                onClick={() => settrailerOpen(true)}
               >
                 TRAILER
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
@@ -72,22 +84,22 @@ border-[#FA6A4F] outline outline-offset-[6px] outline-4 outline-[#FA6A4F] aspect
           <div className="w-3/4 mx-auto pb-6 pt-20">
             <img src={Logo} className="" alt="" />
             <h2 className="font-BlenderBook text-xl text-center mt-2 text-white opacity-70">
-              The best game NFT projuect.
+              First Videogame that combines console and P&E
             </h2>
           </div>
           <div className="w-full    h-40">
             <div className="bg-cover  bg-center bg-sfondoVideo w-[80%] text-white flex items-center justify-center  h-full mx-auto border-[5px]  border-[#FA6A4F] aspect-w-16 aspect-h-7">
-              <IoMdArrowDropright size={60} onClick={() => setOpen(true)} />
+              <IoMdArrowDropright
+                className=" w-[120px] h-[120px] mx-auto my-auto"
+                onClick={() => setOpen(true)}
+              />
             </div>
             <div className="flex justify-center pt-10 gap-4">
-              <button className="text-white bg-[#FA6A4F] shapeButton font-BlenderMedium shape px-4 py-2 ">
-                ESPLORA
-              </button>
               <button
-                className="text-white border-[#FA6A4F] border-2  font-BlenderMedium  px-4 py-2 "
-                onClick={() => setOpen(true)}
+                onClick={() => settrailerOpen(true)}
+                className="text-white bg-[#FA6A4F] shapeButton font-BlenderMedium shape px-4 py-2 "
               >
-                TRAILER
+                WATCH TRAILER
               </button>
             </div>
           </div>
